@@ -65,7 +65,7 @@ public class LoginPage extends BasePage {
              case "sales manager":
                 userName = ConfigurationReader.getProperty("sales.manager.username");
                 break;
-            default:
+             default:
                 throw new RuntimeException("Invalid role!");
         }
         login(userName, password);
