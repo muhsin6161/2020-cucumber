@@ -56,7 +56,7 @@ public class LoginPage extends BasePage {
         String password = ConfigurationReader.getProperty("password");
 
         switch (role) {
-            case "driver":
+              case "driver":
                 userName = ConfigurationReader.getProperty("driver.username");
                 break;
             case "store manager":
